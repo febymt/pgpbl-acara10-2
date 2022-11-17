@@ -1,0 +1,27 @@
+var points = {
+"type": "FeatureCollection",
+"name": "point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32749" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID__": 5.0, "Shape__": "Point ZM", "X": 430125.0, "Y": 9134995.0, "Z": 4.7, "TMA_RMSE": 80.3 }, "geometry": { "type": "Point", "coordinates": [ 430125.0, 9134995.0, 80.3 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 16.0, "Shape__": "Point ZM", "X": 432359.0, "Y": 9134103.0, "Z": 2.1, "TMA_RMSE": 73.9 }, "geometry": { "type": "Point", "coordinates": [ 432359.0, 9134103.0, 73.9 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 20.0, "Shape__": "Point ZM", "X": 434029.0, "Y": 9134758.0, "Z": 5.55, "TMA_RMSE": 77.45 }, "geometry": { "type": "Point", "coordinates": [ 434029.0, 9134758.0, 77.45 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 24.0, "Shape__": "Point ZM", "X": 432984.0, "Y": 9135795.0, "Z": 10.94, "TMA_RMSE": 80.06 }, "geometry": { "type": "Point", "coordinates": [ 432984.0, 9135795.0, 80.06 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 26.0, "Shape__": "Point ZM", "X": 433836.0, "Y": 9137023.0, "Z": 9.36, "TMA_RMSE": 90.64 }, "geometry": { "type": "Point", "coordinates": [ 433836.0, 9137023.0, 90.64 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 27.0, "Shape__": "Point ZM", "X": 428550.0, "Y": 9140751.0, "Z": 13.7, "TMA_RMSE": 114.3 }, "geometry": { "type": "Point", "coordinates": [ 428550.0, 9140751.0, 114.3 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 30.0, "Shape__": "Point ZM", "X": 431471.0, "Y": 9140139.0, "Z": 10.2, "TMA_RMSE": 117.8 }, "geometry": { "type": "Point", "coordinates": [ 431471.0, 9140139.0, 117.8 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 31.0, "Shape__": "Point ZM", "X": 428571.0, "Y": 9139012.0, "Z": 12.6, "TMA_RMSE": 100.4 }, "geometry": { "type": "Point", "coordinates": [ 428571.0, 9139012.0, 100.4 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 32.0, "Shape__": "Point ZM", "X": 429878.0, "Y": 9138800.0, "Z": 13.6, "TMA_RMSE": 100.4 }, "geometry": { "type": "Point", "coordinates": [ 429878.0, 9138800.0, 100.4 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 36.0, "Shape__": "Point ZM", "X": 433185.0, "Y": 9138979.0, "Z": 7.96, "TMA_RMSE": 108.04 }, "geometry": { "type": "Point", "coordinates": [ 433185.0, 9138979.0, 108.04 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 39.0, "Shape__": "Point ZM", "X": 432671.0, "Y": 9137414.0, "Z": 5.55, "TMA_RMSE": 97.45 }, "geometry": { "type": "Point", "coordinates": [ 432671.0, 9137414.0, 97.45 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 42.0, "Shape__": "Point ZM", "X": 429401.0, "Y": 9136042.0, "Z": 6.1, "TMA_RMSE": 83.9 }, "geometry": { "type": "Point", "coordinates": [ 429401.0, 9136042.0, 83.9 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 44.0, "Shape__": "Point ZM", "X": 428853.0, "Y": 9137850.0, "Z": 8.1, "TMA_RMSE": 92.9 }, "geometry": { "type": "Point", "coordinates": [ 428853.0, 9137850.0, 92.9 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 50.0, "Shape__": "Point ZM", "X": 429587.0, "Y": 9139161.0, "Z": 14.0, "TMA_RMSE": 101.0 }, "geometry": { "type": "Point", "coordinates": [ 429587.0, 9139161.0, 101.0 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 51.0, "Shape__": "Point ZM", "X": 429461.0, "Y": 9137757.0, "Z": 10.7, "TMA_RMSE": 93.3 }, "geometry": { "type": "Point", "coordinates": [ 429461.0, 9137757.0, 93.3 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 57.0, "Shape__": "Point ZM", "X": 430375.0, "Y": 9136946.0, "Z": 9.5, "TMA_RMSE": 92.5 }, "geometry": { "type": "Point", "coordinates": [ 430375.0, 9136946.0, 92.5 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 67.0, "Shape__": "Point ZM", "X": 431002.0, "Y": 9138183.0, "Z": 9.22, "TMA_RMSE": 99.78 }, "geometry": { "type": "Point", "coordinates": [ 431002.0, 9138183.0, 99.78 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 69.0, "Shape__": "Point ZM", "X": 430957.0, "Y": 9137166.0, "Z": 2.44, "TMA_RMSE": 93.56 }, "geometry": { "type": "Point", "coordinates": [ 430957.0, 9137166.0, 93.56 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 77.0, "Shape__": "Point ZM", "X": 431556.0, "Y": 9135428.0, "Z": 6.44, "TMA_RMSE": 83.56 }, "geometry": { "type": "Point", "coordinates": [ 431556.0, 9135428.0, 83.56 ] } },
+{ "type": "Feature", "properties": { "OBJECTID__": 78.0, "Shape__": "Point ZM", "X": 430661.0, "Y": 9135757.0, "Z": 7.05, "TMA_RMSE": 80.95 }, "geometry": { "type": "Point", "coordinates": [ 430661.0, 9135757.0, 80.95 ] } }
+]
+}
