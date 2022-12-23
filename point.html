@@ -46,9 +46,15 @@
 			basemap.addTo(map);
 
 			// Creates a red marker with the coffee icon
-			var redMarker = L.AwesomeMarkers.icon({
+			var swasta = L.AwesomeMarkers.icon({
 				icon: 'landmark',
 				markerColor: 'orange',
+				stylePrefix: 'fas',
+				prefix: 'fa'
+			});
+			var pemerintah = L.AwesomeMarkers.icon({
+				icon: 'landmark',
+				markerColor: 'blue',
 				stylePrefix: 'fas',
 				prefix: 'fa'
 			});
@@ -57,13 +63,27 @@
 			var point = L.geoJson(null, {
 
 				pointToLayer: function (feature, latlng) {
-					return L.marker(latlng, {
-						icon: redMarker,
+					if (feature.properties.Objek === "Kantor Pemerintah"){
+						return L.marker(latlng, {
+						icon: pemerintah,
 					});
+
+					}
+					if (feature.properties.Objek === "Kantor Swasta"){
+						return L.marker(latlng, {
+						icon: swasta,
+					});
+
+					}
+					
 				},
 				onEachFeature: function (feature, layer) {
 					var popupContent = "Nama Fasilitas Pemerintahan: " + feature.properties.Toponim + "<br>" +
-						"Kecamatan: " + feature.properties.Kapanewon;
+						
+						"Jenis Kantor: " + feature.properties.Jenis + "<br>" +
+						"Kepemilikan: " + feature.properties.Objek + "<br>" +
+						"Kecamatan: " + feature.properties.Kapanewon + "<br>" +
+						"Kelurahan: " + feature.properties.Kalurahan  ;
 					layer.on({
 						click: function (e) {
 							point.bindPopup(popupContent);
